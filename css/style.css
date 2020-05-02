@@ -488,7 +488,7 @@ footer h2{
 }
 
 .courseResource a{
-    color: #e84118;
+    color: #c3edea;
 }
 
 .courseResource a:hover{
@@ -562,6 +562,51 @@ input{
   text-align: center;
   padding: 200px 0;
 }
+
+.top{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-style:none;
+}
+
+.mid{
+  border-style: none;
+}
+
+.btm{
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-style:none;
+}
+
+.clear .button{
+  border-style:none;
+  background-color: tomato;
+  border-radius: 50px;
+  color: white;
+  margin-top: 10px;
+}
+
+.clear .button:hover{
+  background-color: red;
+}
+
+.stayConnected{
+  color: white;
+  margin-right: 10px;
+}
+
+.stayConnected .fab{
+  margin-right: 5px;
+}
+
+.subscribe{
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+
+}
+
 
 @media only screen and (min-width: 2000px){
     .contentTop{
