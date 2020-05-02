@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>TheCodeClass</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="image/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="image/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="image/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/image/favicon/site.webmanifest">
+
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- BootStrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <script src="https://kit.fontawesome.com/272ca39938.js" crossorigin="anonymous"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <nav>
+    <div>
+      <p class="header">The Code Class</p>
+    </div>
+
+    <div class="navItem">
+      <div class="collapse-icon" onClick={collapseBtn}>
+        <a class="collapse-btn"> <i class="fas fa-bars fa-2x"></i></a>
+      </div>
+
+      <div class="item-collapse">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="lesson.html">Lessons</a>
+          </li>
+          <li>
+            <a href="python.html">Python</a>
+          </li>
+          <li>
+            <a class="active" href="data-science.html">Data Science</a>
+          </li>
+          <li>
+            <a href="development.html">Development</a>
+          </li>
+          <li>
+            <a href="donate.html">Donate</a>
+          </li>
+          <li>
+            <a href="">Certification</a>
+          </li>
+          <li><a class="active btn btn-danger" href="https://www.youtube.com/channel/UCT--knABW8IiFnBHs0O9otg">Subscription</a></li>
+
+        </ul>
+
+        <div class="inforBar">
+          <ul>
+            <li><a href="#home">Basic Python</a></li>
+            <li><a href="#news">Numpy & Pandas</a></li>
+            <li><a href="#contact">Data Visualization</a></li>
+            <li><a href="#about">Machine learning</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="afterInformationBar">
+    <div class="intro">
+      <h1>Data Science</h1>
+      <p>Data science is an field focused on getting knowledge from data sets.
+        The field encompasses analysis, preparing data for analysis, and presenting findings.
+        Important Data Science skills are statistical programming language, like R or Python
+        but over here, we only teach you Python. The most fundamental skill
+        is statistics which is the core of Data Science. Lastly, you also need to know
+        Data Wrangling, Data Visualization, and Machine Learning.
+      </p>
+      <br>
+
+      <p>
+        TheCodeClass, will teach you Python, Data Wrangling, Data Visualization, Machine Learning and some statistics knowledge.
+      </p>
+      <p>
+        To get started. Learn <strong>Basic Python 1st</strong>. After that we will teach you Data Wrangling and some statistics knowledge in
+        Data analysis using NumPy and Pandas. Then Data Visualization and Machine Learning after that.
+      </p>
+    </div>
+    <div class="content-block">
+      <h2>Data Science</h2>
+
+      <p>We teach you from the very basic. First, we teach you about basic Python as it is one of the
+        important language for data science and provide tools for statistics. After that, you will use
+        NumPy and Pandas to learn about some data structure like the one you see in spreadsheet or excel. Then we
+        will plot some graphs and use machine learning models.</p>
+
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-6 numberSize">
+          <div class="number"> 1</div>
+          <div class="number-step">
+            <img src="image/python.png" class="smallImg"></img>
+            <h5> Basic Python</h5>
+            <a class="btn btn-primary" href="python/basicpython">Get Started</a>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-6">
+          <div class="number">2</div>
+          <div class="number-step">
+            <img src="image/numpypandas.png" class="smallImg2"></img>
+            <h5>Data Analysis</h5>
+            <a class="btn btn-primary" href="python/basicpython">Let's go</a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-6">
+          <div class="number"> 3</div>
+          <div class="number-step">
+            <img src="image/matplotlib.svg" class="smallImg2" style="background-color: white; width: 200px;"></img>
+            <h5>Data Visualization</h5>
+            <a class="btn btn-primary" href="python/basicpython">Let's go</a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-6">
+          <div class="number"> 4</div>
+          <div class="number-step">
+            <img src="image/scipy.png" class="smallImg2" style="background-color: white; width: 200px;"></img>
+            <h5>Machine Learning</h5>
+            <a class="btn btn-primary" href="python/basicpython">Let's go</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+    <!-- footer -->
+    <footer>
+      <hr />
+      <div class="footerBar">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="row">
+              <div class="col-6">
+                <p class="footerTitle">Classes</p>
+                <p><a href="/python/basicpython">Basic Python</a></p>
+                <p><a href="/python/numpypandas">NumPy and Pandas</a></p>
+                <p><a href="/python/datavisualization">Data Visualisation</a></p>
+                <p><a href="/python/ml">Machine Learning</a></p>
+              </div>
+
+              <div class="col-6">
+                <p class="footerTitle">About</p>
+                <p><del>Our Policy</del></p>
+                <p><del>TheCodeClass</del></p>
+                <p><a href="https://www.linkedin.com/in/chuasweekwang/">Wes Chua</a></p>
+                <p><a href="https://www.linkedin.com/in/evan-chua-swee-liang-470a7b1a5/">Evan Chua</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="row">
+              <div class="col-6">
+                <p class="footerTitle">Connect</p>
+                <p><a href="https://twitter.com/TheCodeClassEnW"><i class="fab fa-twitter"></i>Twitter</a></p>
+                <p><a href="https://www.facebook.com/CodeClass-103715811334095/"><i class="fab fa-instagram"></i>Instagram</a></p>
+                <p><a href="https://www.facebook.com/CodeClass-103715811334095/"><i class="fab fa-facebook-square"></i>Facebook</a></p>
+                <p><a href="https://www.youtube.com/channel/UCT--knABW8IiFnBHs0O9otg"><i class="fab fa-youtube"></i>YouTube</a></p>
+                <p><i class="fab fa-linkedin"></i>Linkedin</p>
+                <p><i class="fab fa-discord"></i>Discord</p>
+
+              </div>
+
+              <div class="col-6">
+                <p class="footerTitle">Support
+                </p>
+                <p><a href="https://www.youtube.com/channel/UCT--knABW8IiFnBHs0O9otg">Subscription</a></p>
+                <p>Certifcation</p>
+                <p><a href="https://www.paypal.me/wescsk">Donation</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footerEnd">
+        <div class="footerEndH2">
+          <h2>The Code Class</h2>
+        </div>
+        <p>© 2020 TheCodeClass. All rights reserved.</p>
+
+      </div>
+    </footer>
+    <!--  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</body>
+
+</html>

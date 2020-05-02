@@ -1,0 +1,816 @@
+/**
+font-family: 'Roboto', sans-serif;
+font-family: 'Muli', sans-serif;
+**/
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Muli', sans-serif;
+}
+
+nav {
+    margin: 0 ;
+    position: fixed;
+    width: 100%;
+    background: black;
+    z-index: 2;
+    top: 0;
+}
+
+h1{
+  font-size: 30px
+}
+
+nav li{
+    display: inline;
+    padding-right: 26px;
+}
+
+.header{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    word-spacing: -2px;
+}
+
+nav ul{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.navItem{
+    margin: 0 auto;
+
+}
+
+nav a{
+    color: #C0C0C0;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.collapse-icon{
+    display: none;
+}
+
+.active {
+    color: white;
+}
+
+a:hover{
+    color: #a3f7bf;
+}
+
+.notifcation{
+    background-color: tomato;
+    color: black;
+
+}
+
+
+
+/* Information bar */
+
+
+.inforBar li{
+  display: inline;
+}
+
+
+
+.inforBar a{
+    color: #C0C0C0;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 5px;
+    margin-left: 5px;
+    letter-spacing: 0px;
+}
+
+.inforBar a:hover{
+    color: #7ed6df;
+    text-decoration: underline;
+}
+
+
+/* Footer */
+hr{
+    border-color: #C0C0C0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footerBar a{
+    color: white;
+    text-decoration: none;
+}
+
+.footerBar a:hover{
+    color: #a3f7bf;
+    text-decoration: underline;
+}
+
+
+.footerBar{
+    width: 85%;
+    margin: 0 auto;
+}
+
+footer .fab{
+    margin-right: 10px;
+}
+
+footer h2{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+    word-spacing: -2px;
+}
+
+.footerEnd{
+    width: 80%;
+    margin: 80px auto 0 auto;
+    padding-bottom: 30px;
+}
+.footerEnd h2{
+    display: inline;
+    margin-right: 5px;
+}
+
+.footerEnd p{
+    display: inline;
+    margin-left: 10px;
+}
+
+.footerTitle{
+    color: #C0C0C0;
+}
+
+
+.footerEndH2{
+    display: inline;
+    border-right: 1px solid red;
+}
+
+
+/* subscription */
+.subscription-c{
+    width: 95%;
+    margin: 0 auto;
+    background-color: rgb(250, 250, 250);
+    color: black;
+    margin-top: 50px;
+
+}
+
+.sub-text{
+    color: blanchedalmond;
+}
+
+.sub-space{
+    margin-right: 10px;
+}
+
+.subscription-c-i{
+    padding: 20px;
+}
+/* Python - Get started */
+.pythonImgDiv{
+    height: 800px;
+}
+
+.pythonImgDiv2{
+    height: 408px;
+    margin: 0;
+}
+.pythonImg{
+    background-image: url("/image/unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 4px;
+    height: 100%;
+}
+
+.pythonImg2{
+    margin: 0;
+    border-style: solid;
+    border-width: 4px;
+    height: 96%;
+    padding: 30px;
+}
+
+.dsBtn{
+    text-align: left;
+}
+
+.dsBtn .btn{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/* Home */
+.contentDiv{
+    padding-top: 120px;
+}
+.contentTop{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 160px;
+
+}
+
+.contentTop h1{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+    word-spacing: -2px;
+}
+
+.contentTop p{
+    margin: 0;
+    padding: 0;
+}
+
+.contentLarge{
+    font-size: 30px;
+}
+
+.contentSmall{
+    font-size: 20px;
+}
+
+.contentPath{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content-block{
+  background-color: #181818;
+  width: 80%;
+  margin: 0 auto 20px auto;
+  padding: 20px;
+
+}
+
+.number{
+  border: white;
+  border-style: solid;
+  width: 30px;
+  border-radius: 50px;
+  padding-left: 7px;
+}
+.number-step{
+  position: absolute;
+  padding-left: 35px;
+  bottom: 0;
+}
+
+.numberSize{
+  height: 180px;
+}
+
+.no-pad{
+    padding: 0px;
+}
+
+.infoDiv{
+    margin: 0 auto 20px auto;
+    border: red;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn-s{
+    color: black;
+    margin-left: 20px;
+    display: inline;
+}
+.content-black{
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+    margin: 0px;
+    margin-right: 10px;
+    height: 1060px;
+}
+
+.black-item{
+    text-align: center;
+    margin: 20px auto 0 auto;
+    width: 90%;
+
+}
+
+.black-item h2{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+.content-white{
+    background-color: rgb(250, 250, 250);
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+    color: black;
+    margin-left: 10px;
+    height: 1060px;
+}
+
+.dev-item{
+  height: 160px;
+  position: relative;
+}
+
+.disable-white {
+    color: white;
+    text-decoration: line-through;
+}
+
+.block{
+  height: 160px;
+    width: 90%;
+    position: relative;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.white-block a{
+  height: 35px;
+  width: 100%;
+  padding: 5px;
+  background-color: black;
+  border: black;
+  bottom: 0px;
+}
+
+
+.black-block a{
+  height: 35px;
+  width: 60%;
+  background-color: white;
+  border: white;
+  color: black;
+}
+
+.content-btn{
+  position: absolute;
+  width: 100%;
+  bottom: 2px;
+}
+.block p{
+  margin-bottom: 0;
+}
+
+.arrow{
+  margin-top: 5px;
+}
+.smallImg{
+    width: 100px;
+}
+
+.smallImg2{
+    width:160px;
+}
+
+.start{
+    width: 60%;
+    margin: 100px auto 0 auto;
+    text-align: center;
+}
+
+.whatLang{
+    width: 560px;
+    height: 315px;
+}
+
+
+
+/* Lesson */
+.lesson{
+    padding-top:200px;
+}
+.card-text,
+.card-title{
+    color: black;
+}
+
+.card{
+    height: 280px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.card a{
+    position: absolute;
+    bottom: 10px;
+}
+
+.lessonTitle{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+}
+
+.topic-lessons{
+    width: 100%;
+    margin: 0 auto;
+
+}
+/* Course */
+
+.course{
+    background-color: white;
+    color: black;
+    padding-bottom: 100px;
+}
+
+.course-header{
+  padding-top: 10px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.course-header .fas,
+.course-header .fab{
+    margin-bottom: 20px;
+}
+
+.courseTitle{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.courseInfo{
+    width: 93%;
+    margin: 0 auto;
+}
+
+.courseInfo .btn{
+    margin-left: 5px;
+    color: white;
+    text-align: center;
+}
+
+.courseResource{
+    width: 80%;
+    margin: 0 auto 100px auto;
+}
+.courseResource h3{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.courseResourceSection .fab{
+    margin-left: 10px;
+}
+
+.courseResource li{
+    margin-top: 15px;
+}
+
+.courseResource a{
+    color: #e84118;
+}
+
+.courseResource a:hover{
+    color: #c23616;
+}
+
+.donateBtn{
+    margin-top: 50px;
+}
+
+.subsctiption{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.subsctiption .fab{
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.subsctiption{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.newsLetter{
+    padding-bottom: 100px;
+}
+
+.subsctiption form{
+    width: 50%;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+}
+
+.formTop{
+    border-width: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.formBtm{
+    border-width: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.formBtn{
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.afterInformationBar{
+  width: 1300px;
+  margin: 160px auto 0 auto;
+}
+
+.intro{
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0 100px 0;
+  text-align: center;
+}
+
+.download{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 200px 0;
+}
+
+@media only screen and (min-width: 2000px){
+    .contentTop{
+        padding-top: 140px;
+        padding-bottom: 260px;
+    }
+
+    .contentTop h1{
+        font-size: 30px;
+    }
+
+    .contentLarge{
+        font-size: 45px;
+    }
+
+    .contentSmall{
+        font-size: 30px;
+    }
+
+    .contentPath{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .footerBar{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .courseContent{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+    .content-white,
+    .content-black{
+        height: 950px;
+        margin: 0 auto 20px auto;
+    }
+
+    .pythonImgDiv2{
+        height: 610px;
+        margin: 0;
+    }
+
+    .pythonImgDiv{
+        height: 1200px;
+    }
+
+    .btn-s{
+        margin-left: 0px;
+        display: block;
+    }
+
+    .subsctiption form{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 992px) {
+    .pythonImgDiv,
+    .pythonImg{
+        display: none;
+    }
+
+    .pythonImgDiv2{
+        height: 400px;
+        margin: 0;
+    }
+    .sub-space{
+        margin: 20px auto;
+    }
+
+
+}
+@media only screen and (max-width: 960px) {
+
+    nav li{
+        display: block;
+    }
+
+    nav ul{
+        text-align: left;
+        font-size: 30px;
+        margin-left: 60px;
+    }
+
+    .item-collapse{
+      display: none;
+    }
+
+    .collapse-icon{
+        display: inline;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        border: white;
+        border-style: solid;
+        border-width: 1px;
+        padding: 5px 10px 5px 10px;
+    }
+
+    /* Information bar */
+
+    .inforItem .btn{
+        margin-top: 10px;
+    }
+
+    .start{
+        width: 80%;
+    }
+
+    .pythonImgDiv2{
+        height: 450px;
+        margin: 0;
+    }
+
+    .inforBar{
+        position: relative;
+        padding-top: 60px;
+        padding-bottom: 20px;
+
+    }
+}
+@media only screen and (max-width: 767px) {
+    .card {
+        width: 80%;
+        margin: 10px auto 0 auto;
+    }
+
+    .pythonImgDiv2{
+        width: 100%;
+        height: 550px;
+        margin: 0;
+    }
+}
+
+  @media only screen and (max-width: 640px) {
+    .content-white
+    {
+        height: 1120px;
+        margin: 0 auto 20px auto;
+    }
+
+    .smallImg{
+        width: 70px;
+    }
+    .smallImg2{
+        width:100px;
+    }
+
+    .whatLang{
+        width: 360px;
+        height: 215px;
+    }
+
+    .start{
+        margin: 20px auto 0 auto;
+    }
+
+    .pythonImgDiv2{
+        height: 650px;
+        margin: 0;
+    }
+
+    .course-header{
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+  }
+
+@media only screen and (max-width: 450px) {
+    .whatLang{
+        width: 280px;
+        height: 135px;
+    }
+
+    .lesson{
+        padding-top:8œ0px;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    nav h1{
+        text-align: left;
+        margin-left: 50px;
+    }
+    .collapse-icon{
+        right: 20px;
+    }
+
+    .inforBar{
+        padding-top: 50px;
+
+        margin: 0px auto 10px auto;
+
+    }
+
+    .black{
+        height: 500px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .pythonImgDiv2{
+        height: 800px;
+    }
+
+    .black{
+        height: 620px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .contentDiv{
+        padding-top: 50px;
+    }
+
+    .content-white{
+        height: 1200px;
+    }
+
+    .contentLarge{
+        font-size: 25px;
+    }
+
+    .contentSmall{
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 310px) {
+    .whatLang{
+        width: 220px;
+        height: 135px;
+    }
+}
