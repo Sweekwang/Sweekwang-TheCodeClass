@@ -4,8 +4,12 @@ font-family: 'Muli', sans-serif;
 **/
 
 .ad-h{
-  height: 100px;
-  margin-top: 10px;
+  width:728px;
+  height:100px;
+}
+
+.ad-footer{
+  height: 20px;
 }
 body {
     background-color: black;
@@ -648,12 +652,12 @@ input{
 
 }
 
-
-
-
-
 @media only screen and (max-width: 1200px){
-    .content-white,
+    .content-white{
+        height: 1100px;
+        margin: 0 auto 20px auto;
+    }
+
     .content-black{
         height: 950px;
         margin: 0 auto 20px auto;
@@ -695,6 +699,10 @@ input{
 
 }
 @media only screen and (max-width: 960px) {
+  .ad-h{
+    width:528px;
+    height:100px;
+  }
 
     nav li{
         display: block;
@@ -744,6 +752,10 @@ input{
     }
 }
 @media only screen and (max-width: 767px) {
+  .ad-h{
+    width:428px;
+    height:120px;
+  }
     .card {
         width: 80%;
         margin: 10px auto 0 auto;
@@ -757,6 +769,12 @@ input{
 }
 
   @media only screen and (max-width: 640px) {
+
+    .ad-h{
+      width:328px;
+      height:100px;
+    }
+
     .content-white
     {
         height: 1120px;
