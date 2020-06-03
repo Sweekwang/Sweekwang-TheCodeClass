@@ -2,6 +2,43 @@
 font-family: 'Roboto', sans-serif;
 font-family: 'Muli', sans-serif;
 **/
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    width: 100%;
+}
+
+.navBar{
+    background: black;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+iframe{
+    width: 550px;
+    height: 300px;
+}
+.btn-outline-dark: hover{
+    color: white;
+}
+
+.card{
+    height: 280px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.card a{
+    position: absolute;
+    bottom: 10px;
+}
+
+.card-text,
+.card-title{
+    color: black;
+}
 
 .ad-h{
   width:728px;
@@ -11,20 +48,7 @@ font-family: 'Muli', sans-serif;
 .ad-footer{
   height: 20px;
 }
-body {
-    background-color: black;
-    color: white;
-    font-family: 'Muli', sans-serif;
-}
 
-nav {
-    margin: 0 ;
-    position: fixed;
-    width: 100%;
-    background: black;
-    z-index: 2;
-    top: 0;
-}
 
 h1{
   font-size: 30px
@@ -37,6 +61,15 @@ nav li{
 
 .header{
     font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    word-spacing: -2px;
+}
+
+.logo-name{
     font-family: 'Lato', sans-serif;
     text-align: center;
     padding-top: 20px;
@@ -171,12 +204,15 @@ footer h2{
 
 /* subscription */
 .subscription-c{
-    width: 95%;
+    width: 80%;
     margin: 0 auto;
-    background-color: rgb(250, 250, 250);
     color: black;
-    margin-top: 50px;
-
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(25,28,33);
+    border-left: #a3f7bf;
+    border-left-style: solid;
+    border-left-width: 2px ;
 }
 
 .sub-text{
@@ -190,6 +226,23 @@ footer h2{
 .subscription-c-i{
     padding: 20px;
 }
+
+.subscription-c-i h4{
+    color: white;
+}
+
+.subscription-c-i p{
+    color: rgb(212,212,214);
+}
+
+.suuport{
+    padding-top: 100px;
+}
+.suppot-sub,
+.suuport h2{
+    text-align: center;
+}
+
 /* Python - Get started */
 .pythonImgDiv{
     height: 800px;
@@ -234,8 +287,8 @@ footer h2{
     margin: 0 auto;
     text-align: center;
     margin-top: 50px;
-    padding-top: 40px;
-    padding-bottom: 160px;
+    padding-top: 20px;
+    padding-bottom: 130px;
 
 }
 
@@ -243,7 +296,7 @@ footer h2{
     font-size: 15px;
     font-family: 'Lato', sans-serif;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     letter-spacing: 3px;
     word-spacing: -2px;
 }
@@ -251,6 +304,67 @@ footer h2{
 .contentTop p{
     margin: 0;
     padding: 0;
+}
+
+.info-bg{
+    background-color: #f7f7f7;
+    color:black;
+}
+.info-top{
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.info-btm {
+    text-align: left;
+    width: 1150px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.info-btm .col-12{
+    margin-bottom: 10px;
+}
+
+
+.info-course{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+}
+
+.info-course p{
+    display: inline;
+    height: 50px;
+    margin-bottom: 100px;
+    font-size: 17px;
+}
+
+.alert-white{
+    background-color: a3f7bf;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+}
+
+.alert-shadow{
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.info-btm .alert-shadow:hover{
+    background-color: #ffcbcb;
+    transform: translateY(-5px);
+    transition: transform fast;
+}
+.info-btm .alert-shadow-2:hover{
+    background-color: #cceabb;
+    transform: translateY(-5px);
+    transition: transform fast;
+}
+
+.contentXLarge{
+    font-size: 40px;
 }
 
 .contentLarge{
@@ -261,47 +375,74 @@ footer h2{
     font-size: 20px;
 }
 
+
 .contentPath{
+    margin: 0 auto;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(29,38,44,1) 50%);
+    padding-bottom: 100px;
+}
+
+.path-top{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+/* Specialization */
+.specialization-ds {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    height: 80px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card-style{
+    background-color: rgb(25,28,33);
+    border-left: #a3f7bf;
+    border-left-style: solid;
+    border-left-width: 5px ;
+    height: 350px;
+    text-align: center;
+}
+
+.card-style .card-text{
+    color: rgb(212,212,214);
+}
+.card-style .card-title{
+    color: white;
+}
+
+.card-style .btn{
+    position: absolute;
+    margin-left: 105px;
+    width: 200px;
+    
+}
+
+.card-style:hover{
+
+    box-shadow: 0 4px 10px 0 rgba(255, 255, 255, 0.8), 0 6px 20px 0 rgba(255, 255, 255, 0.8);
+}
+
+.specializations-cards{
     width: 90%;
     margin: 0 auto;
 }
 
-.content-block{
-  background-color: #181818;
-  width: 80%;
-  margin: 0 auto 20px auto;
-  padding: 20px;
-
-}
-
-.number{
-  border: white;
-  border-style: solid;
-  width: 30px;
-  border-radius: 50px;
-  padding-left: 7px;
-}
-.number-step{
-  position: absolute;
-  padding-left: 35px;
-  bottom: 0;
-}
-
-.numberSize{
-  height: 180px;
-}
-
-.no-pad{
-    padding: 0px;
-}
-
 .infoDiv{
-    margin: 0 auto 20px auto;
-    border: red;
+    margin: 0 auto 0px auto;
+    border: white;
     border-style: solid;
     border-width: 2px;
     padding: 5px;
     text-align: center;
+    width: 90%;
 }
 
 .btn-s{
@@ -309,126 +450,101 @@ footer h2{
     margin-left: 20px;
     display: inline;
 }
-.content-black{
-    border: white;
-    border-style: solid;
-    border-width: 2px;
-    margin: 0px;
-    margin-right: 10px;
-    height: 1060px;
-}
-
-.black-item{
-    text-align: center;
-    margin: 20px auto 0 auto;
-    width: 90%;
-
-}
-
-.black-item h2{
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 2px;
-}
-
-
-.content-white{
-    background-color: rgb(250, 250, 250);
-    border: white;
-    border-style: solid;
-    border-width: 2px;
-    color: black;
-    margin-left: 10px;
-    height: 1060px;
-}
-
-.dev-item{
-  height: 160px;
-  position: relative;
-}
-
-.disable-white {
-    color: white;
-    text-decoration: line-through;
-}
-
-.block{
-  height: 160px;
-    width: 90%;
-    position: relative;
-    top: 50%; left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-.white-block a{
-  height: 35px;
-  width: 100%;
-  padding: 5px;
-  background-color: black;
-  border: black;
-  bottom: 0px;
-}
-
-
-.black-block a{
-  height: 35px;
-  width: 60%;
-  background-color: white;
-  border: white;
-  color: black;
-}
 
 .content-btn{
   position: absolute;
   width: 100%;
   bottom: 2px;
 }
-.block p{
-  margin-bottom: 0;
+
+
+
+/* Teach */
+.teach-div {
+    margin-left: 0;
+    margin-right: 0;
 }
 
-.arrow{
-  margin-top: 5px;
+.teach-div .youtube{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
 }
-.smallImg{
-    width: 100px;
+.teach{
+    width: 80%;
+    padding-top: 120px;
+    padding-bottom: 100px;
 }
 
-.smallImg2{
-    width:160px;
+.teach p{
+    color: rgb(212,212,214);
+    margin-top: 20px;
 }
 
-.start{
-    width: 60%;
-    margin: 100px auto 0 auto;
+.teach strong{
+    color: white;
+}
+
+/* Who are we */
+.who{
     text-align: center;
+    padding-top: 40px;
+    margin: 0;
 }
 
-.whatLang{
-    width: 560px;
-    height: 315px;
+.who .card{
+    width: 100%;
+    height: 500px;
+}
+.who h5{
+    margin-top: 20px;
+}
+.who h5,
+.who p{
+    color: rgb(212,212,214);
 }
 
+.who .card p{
+    color: rgb(66,84,99);
+    text-align: justify;
+}
+.about a{
+    width: 30%;
+}
+.card-img-top{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
 
+.about{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about .fab{
+    margin-right: 5px;
+}
+.linkedin{
+    left: 38%;
+    transform: translateX(-62%);
+}
+
+.instagram{
+    left: 62%;
+    transform: translateX(-38%);
+}
 
 /* Lesson */
 .lesson{
     padding-top:200px;
 }
-.card-text,
-.card-title{
-    color: black;
-}
 
-.card{
-    height: 280px;
-    width: 100%;
-    margin-top: 20px;
-}
 
-.card a{
-    position: absolute;
-    bottom: 10px;
-}
+
 
 .lessonTitle{
     text-align: center;
@@ -441,68 +557,7 @@ footer h2{
     margin: 0 auto;
 
 }
-/* Course */
 
-.course{
-    background-color: white;
-    color: black;
-    padding-bottom: 100px;
-}
-
-.course-header{
-  padding-top: 10px;
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-}
-
-.course-header .fas,
-.course-header .fab{
-    margin-bottom: 20px;
-}
-
-.courseTitle{
-    text-align: center;
-    margin-top: 40px;
-}
-
-.courseInfo{
-    width: 93%;
-    margin: 0 auto;
-}
-
-.courseInfo .btn{
-    margin-left: 5px;
-    color: white;
-    text-align: center;
-}
-
-.courseResource{
-    width: 80%;
-    margin: 0 auto 100px auto;
-}
-.courseResource h3{
-    margin-top: 50px;
-    margin-bottom: 30px;
-    text-align: center;
-    font-size: 35px;
-}
-
-.courseResourceSection .fab{
-    margin-left: 10px;
-}
-
-.courseResource li{
-    margin-top: 15px;
-}
-
-.courseResource a{
-    color: #c3edea;
-}
-
-.courseResource a:hover{
-    color: #c23616;
-}
 
 .donateBtn{
     margin-top: 50px;
@@ -512,6 +567,7 @@ footer h2{
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 
 .subsctiption .fab{
     margin-left: 20px;
@@ -618,64 +674,17 @@ input{
 
 
 @media only screen and (min-width: 2000px){
-    .contentTop{
-        padding-top: 140px;
-        padding-bottom: 260px;
-    }
 
-    .contentTop h1{
-        font-size: 30px;
-    }
-
-    .contentLarge{
-        font-size: 45px;
-    }
-
-    .contentSmall{
-        font-size: 30px;
-    }
-
-    .contentPath{
-        width: 70%;
-        margin: 0 auto;
-    }
 
     .footerBar{
         width: 60%;
         margin: 0 auto;
     }
 
-    .courseContent{
-        width: 60%;
-        margin: 0 auto;
-    }
 
 }
 
 @media only screen and (max-width: 1200px){
-    .content-white{
-        height: 1100px;
-        margin: 0 auto 20px auto;
-    }
-
-    .content-black{
-        height: 950px;
-        margin: 0 auto 20px auto;
-    }
-
-    .pythonImgDiv2{
-        height: 610px;
-        margin: 0;
-    }
-
-    .pythonImgDiv{
-        height: 1200px;
-    }
-
-    .btn-s{
-        margin-left: 0px;
-        display: block;
-    }
 
     .subsctiption form{
         width: 100%;
@@ -683,15 +692,6 @@ input{
 
 }
 @media only screen and (max-width: 992px) {
-    .pythonImgDiv,
-    .pythonImg{
-        display: none;
-    }
-
-    .pythonImgDiv2{
-        height: 400px;
-        margin: 0;
-    }
     .sub-space{
         margin: 20px auto;
     }
@@ -735,10 +735,6 @@ input{
         margin-top: 10px;
     }
 
-    .start{
-        width: 80%;
-    }
-
     .pythonImgDiv2{
         height: 450px;
         margin: 0;
@@ -752,20 +748,25 @@ input{
     }
 }
 @media only screen and (max-width: 767px) {
-  .ad-h{
-    width:428px;
-    height:120px;
-  }
+    .contentXLarge{
+        font-size: 30px;
+    }
+    .contentLarge{
+        font-size: 20px;
+    }
+    
+    .contentSmall{
+        font-size: 15px;
+    }
+    .ad-h{
+        width:428px;
+        height:120px;
+    }
     .card {
         width: 80%;
         margin: 10px auto 0 auto;
     }
 
-    .pythonImgDiv2{
-        width: 100%;
-        height: 550px;
-        margin: 0;
-    }
 }
 
   @media only screen and (max-width: 640px) {
@@ -775,32 +776,6 @@ input{
       height:100px;
     }
 
-    .content-white
-    {
-        height: 1120px;
-        margin: 0 auto 20px auto;
-    }
-
-    .smallImg{
-        width: 70px;
-    }
-    .smallImg2{
-        width:100px;
-    }
-
-    .whatLang{
-        width: 360px;
-        height: 215px;
-    }
-
-    .start{
-        margin: 20px auto 0 auto;
-    }
-
-    .pythonImgDiv2{
-        height: 650px;
-        margin: 0;
-    }
 
     .course-header{
         text-align: center;
@@ -810,6 +785,11 @@ input{
 
 
   }
+@media only screen and (max-width: 545px) {
+  .contentXLarge{
+    font-size: 25px;
+    }
+}
 
 @media only screen and (max-width: 450px) {
     .whatLang{
@@ -847,9 +827,6 @@ input{
 
 @media only screen and (max-width: 400px) {
 
-    .pythonImgDiv2{
-        height: 800px;
-    }
 
     .black{
         height: 620px;
@@ -858,21 +835,7 @@ input{
 }
 
 @media only screen and (max-width: 400px) {
-    .contentDiv{
-        padding-top: 50px;
-    }
 
-    .content-white{
-        height: 1200px;
-    }
-
-    .contentLarge{
-        font-size: 25px;
-    }
-
-    .contentSmall{
-        font-size: 15px;
-    }
 
 }
 
