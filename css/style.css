@@ -280,7 +280,7 @@ footer h2{
 }
 /* Home */
 .contentDiv{
-    padding-top: 120px;
+    padding-top: 20px;
 }
 .contentTop{
     width: 80%;
@@ -289,9 +289,13 @@ footer h2{
     margin-top: 50px;
     padding-top: 20px;
     padding-bottom: 130px;
-
 }
 
+.contentTop2{
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
 .contentTop h1{
     font-size: 15px;
     font-family: 'Lato', sans-serif;
@@ -340,6 +344,54 @@ footer h2{
     margin-bottom: 100px;
     font-size: 17px;
 }
+
+.hex-img-collection{
+    margin-top: 50px;
+    overflow: hidden;
+    height: 750px;
+    position: relative;
+}
+.hex-img{
+    position: absolute;
+    width: 300px;
+}
+
+.hex-Java{
+    left: -100px;
+    top:-120px;
+    transform: rotate(340deg);
+}
+
+.hex-python{
+    right: -100px;
+    top:-50px;
+    transform: rotate(20deg);
+}
+
+.hex-swift{
+    top:100px;
+    transform: rotate(340deg);
+}
+
+.hex-CSS{
+    top:320px;
+    right: -100px;
+    transform: rotate(340deg);
+}
+
+.hex-JS{
+    top:320px;
+    left: -120px;
+    transform: rotate(340deg);
+}
+
+.hex-HTML{
+    top:530px;
+    left: 20px;
+    transform: rotate(350deg);
+}
+
+
 
 .alert-white{
     background-color: a3f7bf;
@@ -419,9 +471,9 @@ footer h2{
 }
 
 .card-style .btn{
-    position: absolute;
-    margin-left: 105px;
     width: 200px;
+    left: 33%;
+    transform: translate(-20%);
     
 }
 
@@ -461,8 +513,8 @@ footer h2{
 
 /* Teach */
 .teach-div {
-    margin-left: 0;
-    margin-right: 0;
+    width: 1300px;
+    margin: 0 auto;
 }
 
 .teach-div .youtube{
@@ -470,12 +522,13 @@ footer h2{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-
 }
+
 .teach{
     width: 80%;
     padding-top: 120px;
     padding-bottom: 100px;
+    margin: 0 auto;
 }
 
 .teach p{
@@ -525,6 +578,7 @@ footer h2{
     margin: 0 auto;
 }
 
+
 .about .fab{
     margin-right: 5px;
 }
@@ -561,6 +615,10 @@ footer h2{
 
 .donateBtn{
     margin-top: 50px;
+}
+
+.donateW{
+    width: 20%;
 }
 
 .subsctiption{
@@ -674,6 +732,19 @@ input{
 
 
 @media only screen and (min-width: 2000px){
+    .contentPath {
+        width:  1400px;
+    }
+
+    .who{
+        width: 1400px;
+        margin: 0 auto;
+    }
+
+    .suuport{
+        width: 1400px;
+        margin: 0 auto;
+    }
 
 
     .footerBar{
@@ -683,26 +754,178 @@ input{
 
 
 }
+@media only screen and (max-width: 1300px){
+    .teach-div {
+        width: 1200px;
+    }
 
-@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 1250px){
+    .card-style{
+        height: 400px;
+    }
+    .hex-img-collection{
+        width: 100%;
+    }
 
     .subsctiption form{
         width: 100%;
     }
 
-}
-@media only screen and (max-width: 992px) {
-    .sub-space{
-        margin: 20px auto;
+    .who .card{
+        height: 530px;
     }
 
 
 }
+
+@media only screen and (max-width: 1200px){
+    .hex-img-collection{
+        width: 100%;
+    }
+
+    .subsctiption form{
+        width: 100%;
+    }
+
+    .teach-div {
+        width: 1100px;
+    }
+
+}
+@media only screen and (max-width: 1200px){
+    .youtube{
+        width: 450px;
+    }
+}
+
+
+@media only screen and (max-width: 1150px){
+    
+    .teach-div {
+        width: 1000px;
+    }
+
+    .info-btm {
+        width: 800px;
+    }
+
+    .hex-Java{
+        left: -120px;
+        top:-100px;
+    }
+    
+    .hex-python{
+        right: -120px;
+        top:10px;
+    }
+    
+    .hex-swift{
+        top:100px;
+        left: -60px;
+    }
+    
+    .hex-CSS{
+        top:360px;
+        right: -140px;
+        transform: rotate(20deg);
+    }
+    
+    .hex-JS{
+        top:300px;
+        left: -120px;
+    }
+    
+    .hex-HTML{
+        top:530px;
+        left: -50px;
+    }
+
+    .who .card{
+        height: 550px;
+    }
+
+}
+@media only screen and (max-width: 1080px){
+    .about a{
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 1070px){
+    .card-style{
+        height: 440px;
+    }
+    .card-style .btn{
+        left: 28%;    
+    }
+}
+
+
+
+@media only screen and (max-width: 992px) {
+
+    .card-style .btn{
+        left: 33%;    
+    }
+
+    .teach-div {
+        width: 800px;
+    }
+
+    .sub-space{
+        margin: 20px auto;
+    }
+    .specializations-cards{
+        position: relative;
+    }
+
+    .card-style{
+        height: 390px;
+    }
+
+    .card-special{
+        position: absolute;
+        left: 50%;
+        top: 410px;
+    }
+
+    .teach-div {
+        height: 1000px;
+    }
+
+    .teach{
+        width: 80%;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    .how{
+        height: 700px;
+    }
+
+    .teach-div{
+        position: relative;
+        top: -300px;
+    }
+
+    .youtube-div{
+        position: relative;
+        top: 600px;
+    }
+
+    .about a{
+        width: 30%;
+    }
+
+}
 @media only screen and (max-width: 960px) {
-  .ad-h{
-    width:528px;
-    height:100px;
-  }
+    .ad-h{
+        width:528px;
+        height:100px;
+    }
 
     nav li{
         display: block;
@@ -747,7 +970,39 @@ input{
 
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .info-btm {
+        width: 700px;
+    }
+
+    .teach-div {
+        width: 700px;
+    }
+}
+
 @media only screen and (max-width: 767px) {
+    .card-special{
+        position: relative;
+        left: 0%;
+        top:0px;
+    }
+
+    .card-style .btn{
+        left: 38%;    
+    }
+
+
+    .teach-div {
+        width: 600px;
+    }
+
+    .hex-img-collection{
+        display: none;
+    }
+    .info-btm {
+        padding-bottom: 0;
+    }
     .contentXLarge{
         font-size: 30px;
     }
@@ -769,7 +1024,29 @@ input{
 
 }
 
-  @media only screen and (max-width: 640px) {
+@media only screen and (max-width: 730px) {
+    .info-btm {
+        width: 600px;
+    }
+
+    .info-course2{
+        top: 10px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .card-style .btn{
+        left: 33%;    
+    }
+
+    .teach-div {
+        width: 500px;
+    }
+
+    .info-btm {
+        width: 540px;
+    }
 
     .ad-h{
       width:328px;
@@ -783,28 +1060,76 @@ input{
         margin: 0 auto;
     }
 
+    .how{
+        height: 800px;
+    }
+
+    .teach-div{
+        position: relative;
+        top: -250px;
+    }
+
+    .youtube-div{
+        top: 700px;
+    }
+
+    .teach{
+        width: 100%;
+
+    }
+
+    .youtube{
+        width: 400px;
+    }
+
 
   }
 @media only screen and (max-width: 545px) {
-  .contentXLarge{
-    font-size: 25px;
+    .teach-div {
+        width: 400px;
     }
+
+    .info-btm {
+        width: 440px;
+    }
+
+    .contentXLarge{
+        font-size: 25px;
+    }
+
+    .who .card{
+        height: 580px;
+    }
+
+    .about a{
+        width: 35%;
+    }
+
+    .linkedin{
+        left: 35%;
+    }
+
+    .instagram{
+        right: 60%;
+    }
+
 }
 
 @media only screen and (max-width: 450px) {
+    .info-btm {
+        width: 340px;
+    }
+
     .whatLang{
         width: 280px;
         height: 135px;
     }
 
     .lesson{
-        padding-top:8œ0px;
+        padding-top:80px;
     }
-}
 
-
-@media only screen and (max-width: 450px) {
-    nav h1{
+    .nav h1{
         text-align: left;
         margin-left: 50px;
     }
@@ -823,9 +1148,36 @@ input{
         height: 500px;
     }
 
+    .who .card{
+        height: 630px;
+    }
+
+    .who .row{
+        padding: 0;
+        margin: 0;
+    }
+
+    .about a{
+        width: 38%;
+    }
+
+    .linkedin{
+        left: 32%;
+    }
+
+    .instagram{
+        left: 65%;
+    }
+
 }
 
+
+
+
 @media only screen and (max-width: 400px) {
+    .teach-div {
+        width: 300px;
+    }
 
 
     .black{
@@ -834,14 +1186,60 @@ input{
 
 }
 
-@media only screen and (max-width: 400px) {
 
+@media only screen and (max-width: 320px) {
+    .info-btm {
+        width: 290px;
+    }
 
-}
-
-@media only screen and (max-width: 310px) {
     .whatLang{
         width: 220px;
         height: 135px;
+    }
+
+    .info-course{
+        top: 0;
+    }
+
+    .info-bg .col-12{
+        margin-bottom: 40px;
+    }
+
+    .youtube{
+        height: 240px;
+        width: 300px;
+    }
+
+    .btn-s{
+        margin-left: 0;
+    }
+
+    .specializations-cards .card{
+        margin: 0;
+        width: 100%;
+        height: 430px;
+    }
+    .card-style .btn{
+        left: 28%;
+    }
+
+    .who .col-xl-6{
+        padding: 0;
+    }
+
+    .who .card{
+        height: 750px;
+    }
+
+    .about a{
+        width: 50%;
+    }
+
+    .linkedin{
+        left: 32%;
+    }
+
+    .instagram{
+        left: 68%;
     }
 }
